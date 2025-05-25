@@ -12,7 +12,7 @@ load_dotenv()
 # settings_module= fetch_default_module()
 
 def main():
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.base')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.deploy')
     try:
         from django.core.management import execute_from_command_line
         execute_from_command_line(sys.argv)
