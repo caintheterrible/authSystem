@@ -17,4 +17,12 @@ The intent is to use this as a study case for learning to build robust, producti
   - password hasher
   - logging functionality
 
-#### Deadline - May 26
+#### Deadline - May 27
+
+### Current progress:
+* Set up basic class based configuration for `BaseConfiguration`.
+* Successfully deployed Django on `BaseConfiguration`.
+// Set up database configuration `BaseDatabaseConfiguration`.
+// Successfully deploy Django with `BaseDatabaseConfiguration`.
+// Set up `DevelopmentConfiguration`
+// Successfully deploy Django on `DevelopmentConfiguration` extending `BaseConfiguration` and `DatabaseConfiguration`
